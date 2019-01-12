@@ -1,0 +1,39 @@
+body {
+    background: url("../images/800px-World_map_Winkel_Tripel_proj-0deg_centered.svg.png");
+    background-color: white;
+
+}
+
+#lastpage {
+    display: none;
+}
+
+#label {
+    font-size: 20px;
+}
+
+#end-page p {
+    font-size: 20px;
+}
+
+#correct-answers {
+    margin-top: 30px;
+}
+
+#question {
+    margin-top:30px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#timer {
+    font-size: 14px;
+}
+
+#done-button {
+  margin-top: 16px;
+}
+
+#restart-button {
+  margin-top:16px;
+}

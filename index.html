@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Trivia Game</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="row">
+      <div class="title text-center">
+        <h1 class="display-3">World Capital Trivia Game</h1>
+        <hr>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="center">
+        <div>
+          <h3 id="timer"></h3>
+        </div>
+      </div>
+
+      <div class="center"></div>
+
+      <div class="middle">
+        <div id="firstpage" class="firstpage">
+          <h2>Ready...Set...Go!</h2>
+          <p><b>How well do you know the capitals of countries around the world? Test you skills by clicking the Start button and <br>try answering as many questions as possible.</p>
+          <div class="btn btn-primary" id="start-button">Start
+          </div>
+        </div>
+
+      <div>
+        <div id="questions-box">
+        </div>
+      </div>
+
+        <div class="hidden" id="lastpage">
+          <h2>Here are your scores:</h2>
+          <p id="correct-answers"></p>
+          <p id="incorrect-answers"></p>
+          <p id="unanswered"></p>
+          
+          <button type="button" id="restart-button">Restart</button>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery.js"></script>
+
+    <script type="text/javascript" src= "assets/javascript/app.js"></script>
+    
+
+</body>
+
+</html>
